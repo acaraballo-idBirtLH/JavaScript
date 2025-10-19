@@ -1,0 +1,147 @@
+<!-- Pagina de algunos eventos por pais que se pueden hacer durante el viaje -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="utf-8" />
+   <title>Eventos</title>
+
+   <!-- referencia css -->
+   <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+
+   <!-- Carga del JavaScript externo -->
+   <!-- Nombre de la función JavaScript: mostrarEventoAleatorio -->
+   <script defer src="funciones/funciones.js"></script>
+</head>
+<body>
+
+  <!-- Titulo de la pagina principal -->
+  <header>
+    <h1>* Feria de Viajes 2025 *</h1>
+  </header>
+
+  <!-- Inicio de la Nav y lista uno desordenada-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="hoteles.html">Hoteles</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <h2>Eventos destacados por país</h2>
+
+  <!-- Botón para mostrar evento aleatorio -->
+  <p>
+    <button type="button" onclick="mostrarEventoAleatorio()">Ver un evento aleatorio</button>
+  </p>
+
+  <!-- Lista desordenada de eventos por pais-->
+  <table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <tr>
+      <td>
+        <h3>París</h3>
+        <ul>
+          <li>Desfile de Moda en los Campos Elíseos</li>
+          <li>Festival de Jazz de París</li>
+          <li>Noche en los Museos</li>
+        </ul>
+      </td>
+      <td>
+        <a target="_blank" href="imagenes/museoparis.jpg">
+          <img src="imagenes/museoparis.jpg" width="250" alt="Foto de museo Paris">
+        </a>
+      </td>
+      <td>
+        Fuente de Imagen: Propia
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>España</h3>
+        <ul>
+          <li>Feria de Abril en Sevilla</li>
+          <li>San Fermín en Pamplona</li>
+          <li>La Tomatina en Buñol</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStpVkMIHXoGmiogRfAv8WoceZoZ1rL0O87eA&s" width="250" alt="España">
+      </td>
+      <td>
+        Fuente de Imagen: 
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStpVkMIHXoGmiogRfAv8WoceZoZ1rL0O87eA&s" target="_blank">
+          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStpVkMIHXoGmiogRfAv8WoceZoZ1rL0O87eA&s
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Italia</h3>
+        <ul>
+          <li>Carnaval de Venecia</li>
+          <li>Festival de Cine de Venecia</li>
+          <li>Semana Santa en Roma</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://cdn-imgix.headout.com/media/images/760dcfb4ab2926e42b2d4c370af59c62-Venice%20Carnival.jpg?auto=format&q=90&crop=faces&fit=crop" width="250" alt="Italia">
+      </td>
+      <td>
+        Fuente de Imagen: 
+        <a href="https://cdn-imgix.headout.com/media/images/760dcfb4ab2926e42b2d4c370af59c62-Venice%20Carnival.jpg?auto=format&q=90&crop=faces&fit=crop" target="_blank">
+          https://cdn-imgix.headout.com/media/images/760dcfb4ab2926e42b2d4c370af59c62-Venice%20Carnival.jpg?auto=format&q=90&crop=faces&fit=crop
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Grecia</h3>
+        <ul>
+          <li>Festival de Atenas y Epidauro</li>
+          <li>Carnaval de Patras</li>
+          <li>Fiesta de San Jorge en Rodas</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://lonelyplanetes.cdnstatics2.com/cdn/ff/ZP78r5PbfG-XHgnGIArh44FpdkDS1vK1-JN9wZb5HvI/1726195908/public/styles/wide/public/inline-images/grecia_patras_carnval_shutterstockrf_383787367_siete_vidas_shutterstock_2.jpg?itok=lzGrH5YA" width="250" alt="Grecia">
+      </td>
+      <td>
+        Fuente de Imagen: 
+        <a href="https://lonelyplanetes.cdnstatics2.com/cdn/ff/ZP78r5PbfG-XHgnGIArh44FpdkDS1vK1-JN9wZb5HvI/1726195908/public/styles/wide/public/inline-images/grecia_patras_carnval_shutterstockrf_383787367_siete_vidas_shutterstock_2.jpg?itok=lzGrH5YA" target="_blank">
+          https://lonelyplanetes.cdnstatics2.com/cdn/ff/ZP78r5PbfG-XHgnGIArh44FpdkDS1vK1-JN9wZb5HvI/1726195908/public/styles/wide/public/inline-images/grecia_patras_carnval_shutterstockrf_383787367_siete_vidas_shutterstock_2.jpg?itok=lzGrH5YA
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <h3>Portugal</h3>
+        <ul>
+          <li>Fiestas de San Antonio en Lisboa</li>
+          <li>Carnaval de Madeira</li>
+          <li>Festival del Marisco en Algarve</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://algarvetips.b-cdn.net/wp-content/uploads/2015/08/Cataplana.jpg" width="250" alt="Portugal">
+      </td>
+      <td>
+        Fuente de Imagen: 
+        <a href="https://algarvetips.b-cdn.net/wp-content/uploads/2015/08/Cataplana.jpg" target="_blank">
+          https://algarvetips.b-cdn.net/wp-content/uploads/2015/08/Cataplana.jpg
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <footer>
+    copyright reserved: alfredo.caraballo31@gmail.com
+  </footer>
+
+</body>
+</html>

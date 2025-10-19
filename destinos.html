@@ -1,0 +1,104 @@
+<!-- Pagina de destinos de viaje -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Destinos</title>
+  <!-- referencia css -->
+  <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+
+  <!-- Carga del JavaScript externo -->
+  <!-- Nombre de la función JavaScript: contarDestinos -->
+  <script defer src="funciones/funciones.js"></script>
+</head>
+<body>
+
+  <!-- Titulo de la pagina principal -->
+  <header>
+    <h1>* Feria de Viajes 2025 *</h1>
+  </header>
+
+  <!-- Inicio de la Nav y Inicio de la lista uno desordenada-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="hoteles.html">Hoteles</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <h2>Destinos destacados</h2>
+
+  <!-- Botón que invoca la función contarDestinos -->
+  <p>
+    <button type="button" onclick="contarDestinos()">Ver cuántos destinos hay</button>
+  </p>
+
+  <!-- Inicio de la lista dos desordenada-->
+  <ul id="lista-destinos">
+    <li>
+      <h3>París</h3>
+      <img src="https://www.grayline.com/wp-content/uploads/2025/04/shutterstock_2464630783-scaled.jpg" width="250" alt="París">
+      <br>
+      <small>Fuente de Imagen: 
+        <a href="https://www.grayline.com/wp-content/uploads/2025/04/shutterstock_2464630783-scaled.jpg" target="_blank">
+          https://www.grayline.com/wp-content/uploads/2025/04/shutterstock_2464630783-scaled.jpg
+        </a>
+      </small>
+      <p>La ciudad del amor, famosa por la Torre Eiffel, el Louvre y su exquisita gastronomía.</p>
+    </li>
+    <li>
+      <h3>España</h3>
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/80/0f/ca/caption.jpg?w=1400&h=1400&s=1" width="250"  alt="España">
+      <br>
+      <small>Fuente de Imagen: 
+        <a href="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/80/0f/ca/caption.jpg?w=1400&h=1400&s=1" target="_blank">
+          https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/80/0f/ca/caption.jpg?w=1400&h=1400&s=1
+        </a>
+      </small>
+      <p>Un país vibrante, con playas mediterráneas, cultura flamenca y ciudades llenas de historia.</p>
+    </li>
+    <li>
+      <h3>Italia</h3>
+      <img src="https://www.sacarciudadaniaitaliana.com/wp-content/uploads/2022/05/mayo-en-los-medios-italianos-noticias.jpg" width="250" alt="Italia">
+      <br>
+      <small>Fuente de Imagen: 
+        <a href="https://upload.wikimedia.org/wikipedia/commons/f/fd/Colosseo_2020.jpg" target="_blank">
+          https://upload.wikimedia.org/wikipedia/commons/f/fd/Colosseo_2020.jpg
+        </a>
+      </small>
+      <p>Cuna del arte y la moda, desde Roma y Venecia hasta la Toscana y su cocina reconocida mundialmente.</p>
+    </li>
+    <li>
+      <h3>Grecia</h3>
+      <img src="https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/4b318208d4c706339088dd144b5b7ebf.jpg" width="250" alt="Grecia">
+      <br>
+      <small>Fuente de Imagen: 
+        <a href="https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/4b318208d4c706339088dd144b5b7ebf.jpg" target="_blank">
+          https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/4b318208d4c706339088dd144b5b7ebf.jpg
+        </a>
+      </small>
+      <p>Tierra de mitología, playas de aguas cristalinas e impresionantes ruinas antiguas.</p>
+    </li>
+    <li>
+      <h3>Portugal</h3>
+      <img src="https://media.holafly.com/sites/21/2025/04/requisitos-para-viajar-a-portugal-desde-espana.jpg" width="250" alt="Portugal">
+      <br>
+      <small>Fuente de Imagen: 
+        <a href="https://media.holafly.com/sites/21/2025/04/requisitos-para-viajar-a-portugal-desde-espana.jpg" target="_blank">
+          https://media.holafly.com/sites/21/2025/04/requisitos-para-viajar-a-portugal-desde-espana.jpg
+        </a>
+      </small>
+      <p>Encantadores paisajes costeros, fado tradicional y la histórica ciudad de Lisboa.</p>
+    </li>
+  </ul>
+
+  <footer>
+    copyright reserved: alfredo.caraballo31@gmail.com
+  </footer>
+
+</body>
+</html>

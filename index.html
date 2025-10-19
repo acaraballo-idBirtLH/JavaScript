@@ -1,0 +1,80 @@
+<!-- Pagina principal donde indica una breve descripción del contenido de navegación mas la bienvenida -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Inicio</title>
+
+  <!-- referencia css -->
+  <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+
+  <!-- Carga del JavaScript externo -->
+  <!-- Nombre de la función JavaScript: initSite -->
+  <script defer src="funciones/funciones.js"></script>
+</head>
+<body>
+
+  <!-- Titulo de la pagina principal -->
+  <header>
+      <h1>* Feria de Viajes 2025 *</h1>
+  </header>
+
+  <!-- Inicio de la Nav y lista uno desordenada-->
+  <nav id="nav-principal">
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="hoteles.html">Hoteles</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+  </nav>
+
+  <!-- Botón de bienvenida (ejemplo de uso de función) -->
+  <!-- Nombre de la función JavaScript: mostrarBienvenida -->
+  <p>
+    <button type="button" onclick="mostrarBienvenida()">Ver mensaje de bienvenida</button>
+  </p>
+
+  <!-- Inicio de la Tabla -->
+  <table>
+    <tr>
+      <td>
+        <img src="https://www.madridlowcost.es/wp-content/uploads/2017/05/feria-del-viaje-portada.jpg" alt="Diferentes destinos" width="900">
+        <br>
+        Fuente de Imagen: 
+        <a href="https://www.madridlowcost.es/wp-content/uploads/2017/05/feria-del-viaje-portada.jpg" target="_blank">
+          https://www.madridlowcost.es/wp-content/uploads/2017/05/feria-del-viaje-portada.jpg
+        </a>
+      </td>
+      <td>
+        ¡Bienvenidos a la Feria de Viajes 2025! Un espacio único donde podrás descubrir las mejores oportunidades para tu próxima aventura. En esta edición reunimos destinos destacados que no te puedes perder, con toda la información necesaria para que elijas tu viaje ideal.
+        <br><br>
+        Además, podrás conocer de primera mano la oferta de hoteles y alojamientos, participar en eventos exclusivos relacionados con turismo, cultura y gastronomía, y mantenerte en contacto con agencias y especialistas del sector que te ayudarán a planear tu experiencia perfecta.
+        <br><br>
+        La Feria de Viajes 2025 es tu puerta de entrada al mundo: inspírate, planifica y haz realidad tu próximo viaje.
+
+        <br><br>
+
+        <h2>Los mejores 5 destinos para este año</h2>
+        <!-- Inicio de la lista ordenada-->
+        <ol>
+          <li>París</li>
+          <li>España</li>
+          <li>Italia</li>
+          <li>Grecia</li>
+          <li>Portugal</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+
+  <footer>
+    <!-- Año dinámico -->
+    <!-- Nombre de la función JavaScript: setCurrentYear -->
+    <small>&copy; <span id="year"></span> — copyright reserved: alfredo.caraballo31@gmail.com</small>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!-- Pagina donde se muestra formulario de contacto --> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Contacto</title>
+
+  <!-- Referencia css-->
+  <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+
+  <!-- Carga del JavaScript externo -->
+  <!-- Nombre de la función JavaScript: validarFormulario -->
+  <script defer src="funciones/funciones.js"></script>
+</head>
+
+<body>
+
+  <!-- !Titulo de la pagina principal -->
+  <header>
+    <h1>* Feria de Viajes 2025 *</h1>
+  </header>
+
+  <!-- Inicio de la Nav y lista uno desordenada-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="hoteles.html">Hoteles</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <h2>¡Contáctanos! Tu opinión es importante</h2>
+
+  <!-- Inicio del formulario-->
+  <div class="caja">
+    <form action="envio.html" method="GET" onsubmit="return validarFormulario()">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nombre y Apellido</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="Nombre" placeholder="Nombre ..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Correo electrónico</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="Correo" placeholder="Correo electrónico..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Contenido</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="Contenido" placeholder="Contenido.." ></textarea>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+        <input type="submit" value="Enviar" >
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    copyright reserved: alfredo.caraballo31@gmail.com 
+  </footer>
+</body>
+</html>

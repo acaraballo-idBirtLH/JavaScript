@@ -1,0 +1,96 @@
+<!-- Pagina de algunos hoteles por pais -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Hoteles</title>
+  <!-- referencia css -->
+  <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+
+  <!-- Carga del JavaScript externo -->
+  <!-- Nombre de la función JavaScript: resaltarHoteles -->
+  <script defer src="funciones/funciones.js"></script>
+</head>
+<body>
+
+  <!-- Titulo de la pagina principal -->
+  <header>
+    <h1>* Feria de Viajes 2025 *</h1>
+  </header>
+
+  <!-- Inicio de la Nav -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="hoteles.html">Hoteles</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Introducción -->
+  <h2>Hoteles destacados por destino</h2>
+  <p>Descubre una selección de hoteles recomendados en cada destino de la Feria de Viajes 2025. 
+     Haz clic en la imagen de cada hotel para conocer más detalles y reservar directamente en la página oficial.</p>
+
+  <!-- Botón para aplicar la función -->
+  <p>
+    <button type="button" onclick="resaltarHoteles()">Resaltar hoteles</button>
+  </p>
+
+  <!-- Lista de hoteles -->
+  <ul class="hoteles-list">
+    <li><strong>París:</strong> Novotel Paris Les Halles – Ubicación céntrica, ideal para explorar la ciudad.</li>
+    <li><strong>España:</strong> Hotel Barcelona Center – Elegancia y comodidad en pleno Eixample.</li>
+    <li><strong>Italia:</strong> Grand Hotel Rome – Un clásico de lujo con vistas al Coliseo.</li>
+    <li><strong>Grecia:</strong> Hotel Athens Plaza – Moderno y frente a la Plaza Síntagma.</li>
+    <li><strong>Portugal:</strong> Heritage Av. Liberdade – Un elegante refugio en el corazón de Lisboa.</li>
+  </ul>
+
+  <!-- Galería de hoteles -->
+  <div class="hoteles-grid">
+
+    <div class="gallery">
+      <a target="_blank" href="https://www.novotelparisleshalles.com/">
+        <img src="https://du0q79lmicvlj.cloudfront.net/cache/img/01b2c4342da1e66e589a2ba390597f8020c52ccf-229019-1312-938-crop.jpg?q=1721899953" alt="Hotel en París">
+      </a>
+      <div class="desc"><strong>Novotel Paris Les Halles</strong><br>Ubicación céntrica, ideal para explorar París.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://www.hotelescenter.es/es/hotel-barcelona-center/">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipNiP8HJ9rV7FFUXsJGnAhS4obhI7c-q17fLnSJS=s1360-w1360-h1020-rw" alt="Hotel en España">
+      </a>
+      <div class="desc"><strong>Hotel Barcelona Center</strong><br>Elegancia y comodidad en pleno centro de la ciudad.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://www.millenniumhotels.com/en/rome/grand-hotel-palace-rome/">
+        <img src="https://www.millenniumhotels.com/mhb-media/regions/europe/italy/rome/grandhotelpalacerome/rooms/images/superiorroom/rsz_25-4874_superior_room_def_jpeg.auto?w=1000&rev=38217961b22f4f2cab00fcae8556cc9d&hash=F8B5E8795419358A6DC9BA35D8E1D7EA">
+      </a>
+      <div class="desc"><strong>Grand Hotel Rome</strong><br>Un clásico de lujo con vistas al Coliseo.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://www.njvathensplaza.gr/">
+        <img src="https://assets.builderassets.com/site-media/282/njv-athens-plaza-deluxe-room-1.jpg?format=jpg&quality=80&width=1000&height=800&mode=crop" alt="Hotel en Grecia">
+      </a>
+      <div class="desc"><strong>Hotel Athens Plaza</strong><br>Confort moderno frente a la Plaza Síntagma.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="https://lisbonheritagehotels.com/heritage-avenida-liberdade-hotel/">
+        <img src="https://lisbonheritagehotels.com/wp-content/uploads/2019/10/Heritage-Avenida-Liberdade-Hotel-Entrance-Door-1200x696-1.jpg" alt="Hotel en Portugal">
+      </a>
+      <div class="desc"><strong>Heritage Av. Liberdade</strong><br>Un elegante refugio en el corazón de Lisboa.</div>
+    </div>
+
+  </div>
+
+  <footer>
+    copyright reserved: alfredo.caraballo31@gmail.com
+  </footer>
+
+</body>
+</html>
