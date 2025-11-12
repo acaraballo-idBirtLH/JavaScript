@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Novedades UD02 – acaraballo</title>
+    <link>https://acaraballo-idbirtlh.github.io/viajes/</link>
+    <description>Últimas novedades publicadas en el sitio UD02 de acaraballo</description>
+    <language>es-es</language>
+
+    <!-- ITEM 1 -->
+    <item>
+      <title>Novedad 1: Actualización de destinos</title>
+      <link>https://acaraballo-idbirtlh.github.io/viajes/destinos.html</link>
+      <guid isPermaLink="true">https://acaraballo-idbirtlh.github.io/viajes/destinos.html</guid>
+      <description>Se ha publicado una actualización con nuevos destinos.</description>
+      <pubDate>Wed, 12 Nov 2025 10:00:00 +0100</pubDate>
+    </item>
+
+    <!-- ITEM 2 -->
+    <item>
+      <title>Novedad 2: Actualización de eventos</title>
+      <link>https://acaraballo-idbirtlh.github.io/viajes/eventos.html</link>
+      <guid isPermaLink="true">https://acaraballo-idbirtlh.github.io/viajes/eventos.html</guid>
+      <description>Se ha publicado una actualización con nuevos eventos.</description>
+      <pubDate>Wed, 12 Nov 2025 10:20:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
